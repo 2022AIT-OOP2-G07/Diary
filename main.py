@@ -1,10 +1,13 @@
 from diaries.DiarySample import DiarySample
 from diaries.SatoDiary import SatoDiary
+from diaries.MorishigeDiary import MorishigeDiary
+
 
 
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [DiarySample(), 
-            SatoDiary(),] 
+            SatoDiary(),
+            MorishigeDiary(),] 
 
 for d in diaries:
     print("---------------------------------")
