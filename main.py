@@ -11,6 +11,7 @@ diaries = [DiarySample(),
             MorishigeDiary(),
             ShimizuDiary(),] 
 
+
 for d in diaries:
     print("---------------------------------")
     print(d.get_date())
