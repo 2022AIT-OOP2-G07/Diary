@@ -3,14 +3,16 @@ from diaries.SatoDiary import SatoDiary
 from diaries.MorishigeDiary import MorishigeDiary
 from diaries.ShimizuDiary import ShimizuDiary
 from diaries.KazahayaDiary import KazahayaDiary
+from diaries.KuroiDiary import KuroiDiary
 
 
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), 
-            SatoDiary(),
-            MorishigeDiary(),
-            ShimizuDiary(),
-            KazahayaDiary(),] 
+diaries = [DiarySample(),
+           SatoDiary(),
+           MorishigeDiary(),
+           ShimizuDiary(),
+           KazahayaDiary(),
+           KuroiDiary()]
 
 
 for d in diaries:
